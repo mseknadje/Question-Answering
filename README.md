@@ -1,4 +1,5 @@
-### 💬 Question Answering: Project
+# 💬 Question Answering: Project
+
 This project aims to deploy an extractive Question Answering task to retrieve the answer to a question from a given text, by fine-tuning a Hugging Face Transformer model. The task is of extracting the answer to a question from a given context.
 
 Paper: https://arxiv.org/pdf/1901.08634.pdf
