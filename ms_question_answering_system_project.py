@@ -342,8 +342,7 @@ def eval_loop(model, dataloader, device):
 """## Full run"""
 
 def main():
-  ''' basic structure of the main block given by stencil code
-      calls the main methods to run program one step at a time'''
+  ''' basic structure of the main block to run program one step at a time'''
   device = "cuda" if torch.cuda.is_available() else "cpu"
   batch_size = 4
 
